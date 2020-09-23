@@ -11,9 +11,9 @@
                 <div class="row">
                     <div class="col-xl-3 col-md-6">
                         <div class="card  text-white text-center mb-4">
-                            <div class="card-body bg-primary">Light is OFF</div>
+                            <div class="card-body bg-primary text-uppercase storeroomLightStatus"></div>
                             <div class="card-footer d-flex align-items-center justify-content-center">
-                                <button type="button" class="btn btn-outline-primary">ON / OFF</button>
+                                <button type="button" class="btn btn-outline-primary buttonStoreroomLight">ON / OFF</button>
                             </div>
                         </div>
                         <div>
@@ -21,25 +21,25 @@
                     </div>
                     <div class="col-xl-3 col-md-6">
                         <div class="card  text-white text-center mb-4">
-                            <div class="card-body bg-danger">Security Camera is OFF</div>
+                            <div class="card-body bg-danger text-capitalize storeroomCameraStatus"></div>
                             <div class="card-footer d-flex align-items-center justify-content-center">
-                                <button type="button" class="btn btn-outline-danger">ON / OFF</button>
+                                <button type="button" class="btn btn-outline-danger buttonStoreroomCamera">ON / OFF</button>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-3 col-md-6">
                         <div class="card text-white text-center mb-4">
-                            <div class="card-body bg-success">Fan is ON</div>
+                            <div class="card-body bg-success text-uppercase storeroomFanStatus"></div>
                             <div class="card-footer d-flex align-items-center justify-content-center">
-                                <button type="button" class="btn btn-outline-primary text-uppercase">ON / OFF</button>
+                                <button type="button" class="btn btn-outline-primary text-uppercase buttonStoreroomFan">ON / OFF</button>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-3 col-md-6">
                         <div class="card text-white text-center mb-4">
-                            <div class="card-body bg-info">Door Lock</div>
+                            <div class="card-body bg-info text-uppercase storeroomDoorStatus"></div>
                             <div class="card-footer d-flex align-items-center justify-content-center">
-                                <button type="button" class="btn btn-outline-info text-uppercase">LOCK / unlock</button>
+                                <button type="button" class="btn btn-outline-info text-uppercase buttonStoreroomDoor">LOCK / unlock</button>
                             </div>
                         </div>
                     </div>

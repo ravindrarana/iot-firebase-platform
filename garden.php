@@ -11,9 +11,9 @@
                 <div class="row">
                     <div class="col-xl-3 col-md-6">
                         <div class="card text-white text-center mb-4">
-                            <div class="card-body bg-primary">Water Pump OFF</div>
+                            <div class="card-body bg-primary text-capitalize gardenPumpStatus"></div>
                             <div class="card-footer d-flex align-items-center justify-content-center">
-                                <button type="button" class="btn btn-outline-primary">ON / OFF</button>
+                                <button type="button" class="btn btn-outline-primary buttonGardenPump">ON / OFF</button>
                             </div>
                         </div>
                         <div>
@@ -21,9 +21,9 @@
                     </div>
                     <div class="col-xl-3 col-md-6">
                         <div class="card  text-white text-center mb-4">
-                            <div class="card-body bg-info">Security Camera ON</div>
+                            <div class="card-body bg-info text-capitalize gardenCameraStatus"></div>
                             <div class="card-footer d-flex align-items-center justify-content-center">
-                                <button type="button" class="btn btn-outline-info">ON / OFF</button>
+                                <button type="button" class="btn btn-outline-info buttonGardenCamera">ON / OFF</button>
                             </div>
                         </div>
                     </div>

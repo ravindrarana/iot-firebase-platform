@@ -11,9 +11,9 @@
         <div class="row">
           <div class="col-xl-3 col-md-6">
             <div class="card  text-white text-center mb-4">
-              <div class="card-body bg-primary lightStatus"></div>
+              <div class="card-body bg-primary text-uppercase bedroomLightOneStatus "></div>
               <div class="card-footer d-flex align-items-center justify-content-center">
-                <button type="button" class="btn btn-outline-primary buttonStatus">ON / OFF</button>
+                <button type="button" class="btn btn-outline-primary buttonBedroomLightOne">ON / OFF</button>
               </div>
             </div>
             <div>
@@ -21,25 +21,25 @@
           </div>
           <div class="col-xl-3 col-md-6">
             <div class="card  text-white text-center mb-4">
-              <div class="card-body bg-info">Fan is OFF</div>
+              <div class="card-body bg-info text-uppercase bedroomFanStatus"></div>
               <div class="card-footer d-flex align-items-center justify-content-center">
-                <button type="button" class="btn btn-outline-info">ON / OFF</button>
+                <button type="button" class="btn btn-outline-info buttonBedroomFan">ON / OFF</button>
               </div>
             </div>
           </div>
           <div class="col-xl-3 col-md-6">
             <div class="card text-white text-center mb-4">
-              <div class="card-body bg-success">TV is OFF</div>
+              <div class="card-body bg-success text-uppercase bedroomTvStatus"></div>
               <div class="card-footer d-flex align-items-center justify-content-center">
-                <button type="button" class="btn btn-outline-success">ON / OFF</button>
+                <button type="button" class="btn btn-outline-success buttonBedroomTv">ON / OFF</button>
               </div>
             </div>
           </div>
           <div class="col-xl-3 col-md-6">
             <div class="card text-white text-center mb-4">
-              <div class="card-body bg-danger">Light 2 OFF</div>
+              <div class="card-body bg-danger text-uppercase beddroomLightTwoStatus"></div>
               <div class="card-footer d-flex align-items-center justify-content-center">
-                <button type="button" class="btn btn-outline-danger">ON / OFF</button>
+                <button type="button" class="btn btn-outline-danger buttonBeddroomLightTwo">ON / OFF</button>
               </div>
             </div>
           </div>
