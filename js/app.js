@@ -1,12 +1,12 @@
 var firebaseConfig = {
-    apiKey: "AIzaSyCw1O47NYLqDZV94-ZGSrUXUoYbI4NRjZA",
-    authDomain: "nauloghar.firebaseapp.com",
+    apiKey: "yours",
+    authDomain: "your.firebaseapp.com",
     databaseURL: "https://nauloghar.firebaseio.com",
-    projectId: "nauloghar",
-    storageBucket: "nauloghar.appspot.com",
-    messagingSenderId: "308708186885",
-    appId: "1:308708186885:web:153567c2f50e3eecfd756c",
-    measurementId: "G-5WSNLQZ7GV"
+    projectId: "yourid",
+    storageBucket: "your.appspot.com",
+    messagingSenderId: "yours",
+    appId: "1:your:web:153567c2f50e3eecfd756c",
+    measurementId: "G-your"
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
