@@ -11,10 +11,6 @@ var firebaseConfig = {
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
-
-
-
-
 // code for buuton declaration on firebase
 $(document).ready(function() {
     var database = firebase.database();
@@ -115,9 +111,9 @@ $(document).ready(function() {
     database.ref().on("value", function(snap) {
         bedroomFan = snap.val().bedroomFan;
         if (bedroomFan == 1) {
-            $(".bedroomFanStatus").text("AC is ON");
+            $(".bedroomFanStatus").text("Fan is ON");
         } else {
-            $(".bedroomFanStatus").text("AC is OFF");
+            $(".bedroomFanStatus").text("Fan is OFF");
         }
     });
 
